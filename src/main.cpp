@@ -19,7 +19,7 @@ Adafruit_BME280 bme; // I2C
 void setup() {
   // put your setup code here, to run once:
   pinMode(LED_BUILTIN,OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
   bool status;
 
   // (you can also pass in a Wire library object like &Wire2)
