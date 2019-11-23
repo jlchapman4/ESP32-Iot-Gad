@@ -3,9 +3,6 @@
 #include <Adafruit_BME280.h>
 
 
-
-
-
 void refresh_readings();  // Declare in the header so that the compiler knows about it before it is called in loop()
 
 #ifndef LED_BUILTIN
